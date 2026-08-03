@@ -1,4 +1,4 @@
-# vscode-theme-zh-dark README
+# vscode-themes README
 
 ## Working with Markdown
 
