@@ -1,0 +1,21 @@
+{
+  "name": "vscode-themes",
+  "displayName": "vscode-themes",
+  "description": "zhouhe vscode theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "vscode-themes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zh-dark.-color-theme.json"
+      }
+    ]
+  }
+}
