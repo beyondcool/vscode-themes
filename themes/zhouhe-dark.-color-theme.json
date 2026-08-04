@@ -13,7 +13,7 @@
 		"editor.selectionBackground": "#22aa2e", //3a5f7a
 		"editor.selectionHighlightBackground": "#ede73bfb",
 		// "editor.wordHighlightBackground": "#1e4a04fc",//3a5f7a40
-		"editor.wordHighlightStrongBackground": "#fb9836fc",//3a5f7a80
+		// "editor.wordHighlightStrongBackground": "#fb9836fc",//3a5f7a80
 		
 		"editor.findMatchBackground": "#ffaa0030",
 		"editor.findMatchHighlightBackground": "#ffd33d22",
@@ -29,7 +29,7 @@
 		"sideBar.foreground": "#eeffff",
 		"sideBar.border": "#115d67",
 		// "sideBarTitle.foreground": "#bbbbbb",
-		"sideBarSectionHeader.background": "#2a2a2a",
+		"sideBarSectionHeader.background": "#777070",
 		"sideBarSectionHeader.foreground": "#eeffff",
 		"activityBar.background": "#252525",
 		"activityBar.foreground": "#eeffff",
@@ -95,7 +95,7 @@
 		// ===== Git 装饰 =====
 		"gitDecoration.addedResourceForeground": "#7aff92",
 		"gitDecoration.modifiedResourceForeground": "#ffcb6b",
-		"gitDecoration.deletedResourceForeground": "#f07178",
+		"gitDecoration.deletedResourceForeground": "#f07178"
 
 		// // ===== 终端 =====
 		// "terminal.background": "#2e2e2e",
@@ -224,7 +224,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178" //f07178
+				"foreground": "#c6c6c6" //f07178
 			}
 		},
 		{

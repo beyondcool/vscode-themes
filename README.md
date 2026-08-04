@@ -14,3 +14,16 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+## Export vsix
+你以后每次的流程（改完主题后重新打包安装）
+
+```shell
+npx @vscode/vsce package          # 生成新的 .vsix
+```
+
+## Install vsit
+
+```shell
+code --install-extension vscode-themes-0.0.1.vsix --force   # 覆盖安装
+```

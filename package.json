@@ -1,8 +1,13 @@
 {
-  "name": "vscode-themes",
-  "displayName": "vscode-themes",
-  "description": "zhouhe vscode theme",
-  "version": "0.0.1",
+  "name": "zhouhe-dark",
+  "publisher": "zhouhe",
+  "displayName": "zhouhe-dark",
+  "description": "zhouhe vscode theme dark",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beyondcool/vscode-themes.git"
+  },
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -12,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "vscode-themes",
+        "label": "zhouhe-dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/zh-dark.-color-theme.json"
+        "path": "./themes/zhouhe-dark.-color-theme.json"
       }
     ]
   }
