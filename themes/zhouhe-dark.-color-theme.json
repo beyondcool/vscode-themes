@@ -37,7 +37,7 @@
 		// "activityBarBadge.background": "#007acc",
 		"activityBarBadge.foreground": "#ffffff",
 
-		// ===== 标题栏 & 状态栏 =====
+		// ===== 标题栏 & 状态栏 ===== 115d67
 		"titleBar.activeBackground": "#115d67",//252525
 		"titleBar.activeForeground": "#eeffff",
 		"titleBar.inactiveBackground": "#0f3b41",
@@ -127,7 +127,7 @@
 			],
 			"settings": {
 				// "fontStyle": "italic",
-				"foreground": "#0a7817"
+				"foreground": "#0a9f1b"
 				//546E7A 319921 0b6a67
 			}
 		},
