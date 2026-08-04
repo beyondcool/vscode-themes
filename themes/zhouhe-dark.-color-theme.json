@@ -1,10 +1,10 @@
 {
 	"name": "zh-dark",
 	"colors": {
-		"editor.background": "#282828", //1d3945
+		"editor.background": "#052837", //1d3945 282828
 		"editor.foreground": "#c6c6c6", //eeffff
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb",
+		"activityBarBadge.background": "#2395ba", //007acc
+		"sideBarTitle.foreground": "#3da0cb", //bbbbbb
 
 		// ===== 编辑器核心 =====
 		"editorLineNumber.foreground": "#4a4a4a",
@@ -19,15 +19,15 @@
 		"editor.findMatchHighlightBackground": "#ffd33d22",
 		"editor.findRangeHighlightBackground": "#4a4a4a40",
 		"editor.hoverHighlightBackground": "#145711f7", //3a5f7a30
-		"editor.lineHighlightBackground": "#3a3a3a",
+		"editor.lineHighlightBackground": "#052837",
 		"editor.lineHighlightBorder": "#4a4a4a",
 		"editor.rangeHighlightBackground": "#3a5f7a30",
 		"editor.symbolHighlightBackground": "#3a5f7a60",
 
 		// ===== 侧边栏 & 活动栏 =====
-		"sideBar.background": "#252525",
-		"sideBar.foreground": "#eeffff",
-		"sideBar.border": "#115d67",
+		"sideBar.background": "#142830", //1d3945 142830
+		"sideBar.foreground": "#9a9a9a",
+		// "sideBar.border": "#115d67",
 		// "sideBarTitle.foreground": "#bbbbbb",
 		"sideBarSectionHeader.background": "#777070",
 		"sideBarSectionHeader.foreground": "#eeffff",
