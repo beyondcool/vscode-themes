@@ -4,13 +4,13 @@
 		"editor.background": "#052837", //1d3945 282828
 		"editor.foreground": "#c6c6c6", //eeffff
 		"activityBarBadge.background": "#2395ba", //007acc
-		"sideBarTitle.foreground": "#3da0cb", //bbbbbb
+		"sideBarTitle.foreground": "#c99c6c", //bbbbbb 3da0cb
 
 		// ===== 编辑器核心 =====
-		"editorLineNumber.foreground": "#4a4a4a",
-		"editorLineNumber.activeForeground": "#1fa7b9",
+		"editorLineNumber.foreground": "#636363",
+		"editorLineNumber.activeForeground": "#42997c", //1fa7b9
 		"editorCursor.foreground": "#eeffff",
-		"editor.selectionBackground": "#22aa2e", //3a5f7a
+		"editor.selectionBackground": "#0a7012", //3a5f7a 22aa2e
 		"editor.selectionHighlightBackground": "#ede73bfb",
 		// "editor.wordHighlightBackground": "#1e4a04fc",//3a5f7a40
 		// "editor.wordHighlightStrongBackground": "#fb9836fc",//3a5f7a80
@@ -19,17 +19,18 @@
 		"editor.findMatchHighlightBackground": "#ffd33d22",
 		"editor.findRangeHighlightBackground": "#4a4a4a40",
 		"editor.hoverHighlightBackground": "#145711f7", //3a5f7a30
-		"editor.lineHighlightBackground": "#052837",
+		"editor.lineHighlightBackground": "#04202c", //052837
 		"editor.lineHighlightBorder": "#4a4a4a",
 		"editor.rangeHighlightBackground": "#3a5f7a30",
 		"editor.symbolHighlightBackground": "#3a5f7a60",
 
 		// ===== 侧边栏 & 活动栏 =====
-		"sideBar.background": "#142830", //1d3945 142830
+		"menu.background": "#0b506a",//0b506a
+		"sideBar.background": "#02384b", //1d3945 142830
 		"sideBar.foreground": "#9a9a9a",
 		// "sideBar.border": "#115d67",
 		// "sideBarTitle.foreground": "#bbbbbb",
-		"sideBarSectionHeader.background": "#777070",
+		"sideBarSectionHeader.background": "#777070", //777070
 		"sideBarSectionHeader.foreground": "#eeffff",
 		"activityBar.background": "#252525",
 		"activityBar.foreground": "#eeffff",
@@ -37,6 +38,7 @@
 		// "activityBarBadge.background": "#007acc",
 		"activityBarBadge.foreground": "#ffffff",
 
+		
 		// ===== 标题栏 & 状态栏 ===== 115d67
 		"titleBar.activeBackground": "#115d67",//252525
 		"titleBar.activeForeground": "#eeffff",
@@ -49,7 +51,7 @@
 		"statusBar.debuggingBackground": "#95cae4",//007acc
 
 		// ===== 标签页 =====
-		"tab.activeBackground": "#08454d",
+		"tab.activeBackground": "#04792d",//08454d
 		"tab.inactiveBackground": "#2a2a2a",
 		"tab.hoverBackground": "#4a5f7a",
 		"tab.activeForeground": "#ffffff",
@@ -61,6 +63,7 @@
 		"list.activeSelectionBackground": "#007acc",//3a5f7a
 		"list.activeSelectionForeground": "#eeffff",
 		"list.inactiveSelectionBackground": "#007acc",
+		"list.inactiveSelectionForeground": "#eeffff",
 		"list.hoverBackground": "#004d81",//3a3a3a
 		"list.hoverForeground": "#eeffff",
 		"list.focusBackground": "#007acc",
@@ -88,9 +91,14 @@
 		"panelTitle.inactiveForeground": "#888888",
 
 		// ===== 滚动条 =====
-		"scrollbarSlider.background": "#3a3a3a",
-		"scrollbarSlider.hoverBackground": "#4a4a4a",
-		"scrollbarSlider.activeBackground": "#5a5a5a",
+		"scrollbarSlider.background": "#ffffff30", //3a3a3a
+		"scrollbarSlider.hoverBackground": "#ffffff45",//4a4a4a
+		"scrollbarSlider.activeBackground": "#ffffff45",//5a5a5a
+		// ===== Minimap 滑块（预览条） =====
+		"minimap.background": "#00000050",
+		"minimapSlider.background": "#ffffff30",       // 默认状态
+		"minimapSlider.hoverBackground": "#ffffff45",  // 鼠标悬停
+		"minimapSlider.activeBackground": "#ffffff45", // 拖拽/点击时
 
 		// ===== Git 装饰 =====
 		"gitDecoration.addedResourceForeground": "#7aff92",
