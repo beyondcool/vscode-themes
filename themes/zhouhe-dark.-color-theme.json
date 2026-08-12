@@ -18,7 +18,7 @@
 		"editor.findMatchBackground": "#ffaa0030",
 		"editor.findMatchHighlightBackground": "#ffd33d22",
 		"editor.findRangeHighlightBackground": "#4a4a4a40",
-		"editor.hoverHighlightBackground": "#145711f7", //3a5f7a30
+		"editor.hoverHighlightBackground": "#145711f7", //3a5f7a30 145711f7
 		"editor.lineHighlightBackground": "#04202c", //052837
 		"editor.lineHighlightBorder": "#4a4a4a",
 		"editor.rangeHighlightBackground": "#3a5f7a30",
@@ -79,6 +79,12 @@
 		"button.background": "#007acc",
 		"button.foreground": "#ffffff",
 		"button.hoverBackground": "#1084d0",
+
+		// ===== 自带的AI面板 =====
+		// "chat.requestBackground": "#d40b0b",
+		// "chat.requestBackground": "#d54646",
+		"chat.requestBubbleBackground": "#000000fe",
+		"chat.requestBubbleHoverBackground": "#111111fe",
 
 		// ===== 下拉菜单 & 面板 =====
 		"dropdown.background": "#1e1e1e",
@@ -262,6 +268,7 @@
 				"foreground": "#c6c6c6" //F78C6C cb8d12 dcdcdc
 			}
 		},
+		
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
