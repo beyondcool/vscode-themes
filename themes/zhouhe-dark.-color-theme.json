@@ -32,8 +32,8 @@
 		// "sideBarTitle.foreground": "#bbbbbb",
 		"sideBarSectionHeader.background": "#777070", //777070
 		"sideBarSectionHeader.foreground": "#eeffff",
-		"activityBar.background": "#252525",
-		"activityBar.foreground": "#eeffff",
+		"activityBar.background": "#033a4e", //252525 052837
+		"activityBar.foreground": "#20f3f7",
 		"activityBar.activeBorder": "#007acc",
 		// "activityBarBadge.background": "#007acc",
 		"activityBarBadge.foreground": "#ffffff",
