@@ -1,13 +1,13 @@
 {
 	"name": "zh-dark",
 	"colors": {
-		"editor.background": "#052837", //1d3945 282828
-		"editor.foreground": "#c6c6c6", //eeffff
+		"editor.background": "#052837", //1d3945 282828 052837
+		"editor.foreground": "#c6c6c6", //eeffff c6c6c6
 		"activityBarBadge.background": "#2395ba", //007acc
 		"sideBarTitle.foreground": "#c99c6c", //bbbbbb 3da0cb
 
 		// ===== 编辑器核心 =====
-		"editorLineNumber.foreground": "#636363",
+		"editorLineNumber.foreground": "#636363", //636363
 		"editorLineNumber.activeForeground": "#42997c", //1fa7b9
 		"editorCursor.foreground": "#eeffff",
 		"editor.selectionBackground": "#0a7012", //3a5f7a 22aa2e
@@ -23,6 +23,11 @@
 		"editor.lineHighlightBorder": "#4a4a4a",
 		"editor.rangeHighlightBackground": "#3a5f7a30",
 		"editor.symbolHighlightBackground": "#3a5f7a60",
+
+		// ===== Markdown 预览 =====
+		"textCodeBlock.background": "#020506", // 预览中代码块背景
+		// 注意：Mermaid 图背景跟随 editor.background，主题里没有独立键
+		"chart.line": "#ee0e0e", // 89ddff Mermaid 箭头/连线颜色（也影响节点边框；charts.lines 优先级更低）
 
 		// ===== 侧边栏 & 活动栏 =====
 		"menu.background": "#0b506a",//0b506a
