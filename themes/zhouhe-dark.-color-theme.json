@@ -56,13 +56,13 @@
 		"statusBar.debuggingBackground": "#95cae4",//007acc
 
 		// ===== 标签页 =====
-		"tab.activeBackground": "#04792d",//08454d
-		"tab.inactiveBackground": "#2a2a2a",
-		"tab.hoverBackground": "#4a5f7a",
-		"tab.activeForeground": "#ffffff",
-		"tab.inactiveForeground": "#888888",
+		// "tab.activeBackground": "#1ceb65",//08454d
+		// "tab.inactiveBackground": "#ca1414",//2a2a2a
+		// "tab.hoverBackground": "#35ec11", //4a5f7a
+		// "tab.activeForeground": "#ffffff",
+		// "tab.inactiveForeground": "#888888",
 		// "tab.activeBorder": "#007acc",
-		"editorGroupHeader.tabsBackground": "#1e1e1e",
+		// "editorGroupHeader.tabsBackground": "#1e1e1e",
 
 		// ===== 列表 & 树 =====
 		"list.activeSelectionBackground": "#007acc",//3a5f7a
@@ -762,5 +762,22 @@
 				"foreground": "#EEFFFF"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	// 语义高亮配色：基于语言服务（如 TS/JS）提供的符号信息着色，叠加在 TextMate 配色之上
+	"semanticTokenColors": {
+		// "variable.readonly.defaultLibrary": "#C792EA", // 只读变量（来自标准库/框架，如 Math.PI）
+		// "variable.readonly": "#C792EA", // 只读变量（常量，如 const 声明的值）
+		// "variable": "#EEFFFF", // 普通变量
+		// "parameter": "#ffeeee", // 函数参数
+		// "property": "#EEFFFF", // 对象属性 / 成员
+		// "function": "#82AAFF", // 函数
+		// "method": "#82AAFF", // 方法
+		// "class": "#C792EA", // 类
+		// "enum": "#C792EA", // 枚举
+		// "interface": "#C792EA", // 接口
+		// "typeParameter": "#C792EA", // 泛型类型参数，如 T
+		// "namespace": "#C792EA", // 命名空间 / 模块
+		// "type": "#C792EA" // 类型（如类型注解、泛型）
+	}
 }
