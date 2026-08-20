@@ -3,7 +3,6 @@
 	"colors": {
 		"editor.background": "#052837", //1d3945 282828 052837
 		"editor.foreground": "#c6c6c6", //eeffff c6c6c6
-		"activityBarBadge.background": "#2395ba", //007acc
 		"sideBarTitle.foreground": "#c99c6c", //bbbbbb 3da0cb
 
 		// ===== 编辑器核心 =====
@@ -40,12 +39,14 @@
 		"sideBar.foreground": "#9a9a9a",
 		// "sideBar.border": "#115d67",
 		// "sideBarTitle.foreground": "#bbbbbb",
-		"sideBarSectionHeader.background": "#777070", //777070
-		"sideBarSectionHeader.foreground": "#eeffff",
+		"sideBarSectionHeader.background": "#7c0303", //标题栏背景色 [设置 -> 取消 Modern UI 才有效] 777070
+		"sideBarSectionHeader.foreground": "#05ac7f", // 标题文字颜色 eeffff 029f9f
+		"sideBarSectionHeader.border":   "#034f6b",  // 标题栏上方的分隔线颜色
+		
 		"activityBar.background": "#033a4e", //252525 052837
 		"activityBar.foreground": "#20f3f7",
-		"activityBar.activeBorder": "#007acc",
-		// "activityBarBadge.background": "#007acc",
+		"activityBar.activeBorder": "#007acc",//007acc
+		"activityBarBadge.background": "#cb4c07", //077575
 		"activityBarBadge.foreground": "#ffffff",
 
 		
@@ -70,13 +71,13 @@
 		// "editorGroupHeader.tabsBackground": "#1e1e1e",
 
 		// ===== 列表 & 树 =====
-		"list.activeSelectionBackground": "#007acc",//3a5f7a
+		"list.activeSelectionBackground": "#025c53",//3a5f7a
 		"list.activeSelectionForeground": "#eeffff",
-		"list.inactiveSelectionBackground": "#007acc",
+		"list.inactiveSelectionBackground": "#025c53",//007acc
 		"list.inactiveSelectionForeground": "#eeffff",
-		"list.hoverBackground": "#004d81",//3a3a3a
+		"list.hoverBackground": "#097167",//3a3a3a
 		"list.hoverForeground": "#eeffff",
-		"list.focusBackground": "#007acc",
+		"list.focusBackground": "#007acc", //007acc
 		"list.focusForeground": "#eeffff",
 		"list.highlightForeground": "#ffff1d",//007acc
 
@@ -86,7 +87,7 @@
 		"input.placeholderForeground": "#888888",
 		"inputOption.activeBackground": "#007acc",
 		"inputOption.activeForeground": "#ffffff",
-		"button.background": "#007acc",
+		"button.background": "#007acc", //007acc
 		"button.foreground": "#ffffff",
 		"button.hoverBackground": "#1084d0",
 
