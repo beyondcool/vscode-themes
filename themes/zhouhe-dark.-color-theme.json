@@ -35,17 +35,17 @@
 		"menu.foreground":"#e6e6e6",
 
 		// ===== 侧边栏 & 活动栏 =====
-		"sideBar.background": "#02384b", //1d3945 142830
-		"sideBar.foreground": "#9a9a9a",
-		// "sideBar.border": "#115d67",
+		"sideBar.background": "#022a39", //1d3945 142830 02384b
+		"sideBar.foreground": "#ccc", //9a9a9a
+		"sideBar.border": "#080d0e", // 编辑器左右边框 115d67
 		// "sideBarTitle.foreground": "#bbbbbb",
-		"sideBarSectionHeader.background": "#7c0303", //标题栏背景色 [设置 -> 取消 Modern UI 才有效] 777070
+		"sideBarSectionHeader.background": "#031f28", //标题栏背景色 [设置 -> 取消 Modern UI 才有效] 777070
 		"sideBarSectionHeader.foreground": "#05ac7f", // 标题文字颜色 eeffff 029f9f
-		"sideBarSectionHeader.border":   "#034f6b",  // 标题栏上方的分隔线颜色
+		"sideBarSectionHeader.border":   "#237390",  // 标题栏上方的分隔线颜色 034f6b
 		
 		"activityBar.background": "#033a4e", //252525 052837
 		"activityBar.foreground": "#20f3f7",
-		"activityBar.activeBorder": "#007acc",//007acc
+		"activityBar.activeBorder": "#de0f0f",//007acc
 		"activityBarBadge.background": "#cb4c07", //077575
 		"activityBarBadge.foreground": "#ffffff",
 
@@ -54,7 +54,7 @@
 		"titleBar.activeBackground": "#115d67",//252525
 		"titleBar.activeForeground": "#eeffff",
 		"titleBar.inactiveBackground": "#0f3b41",
-		"titleBar.inactiveForeground": "#888888",
+		"titleBar.inactiveForeground": "#888888", //888888
 		"statusBar.background": "#115d67",
 		"statusBar.foreground": "#eeffff",
 		"statusBar.border":"#115d67",
@@ -62,19 +62,25 @@
 		"statusBar.debuggingBackground": "#95cae4",//007acc
 
 		// ===== 标签页 =====
-		// "tab.activeBackground": "#1ceb65",//08454d
-		// "tab.inactiveBackground": "#ca1414",//2a2a2a
-		// "tab.hoverBackground": "#35ec11", //4a5f7a
-		// "tab.activeForeground": "#ffffff",
-		// "tab.inactiveForeground": "#888888",
-		// "tab.activeBorder": "#007acc",
-		// "editorGroupHeader.tabsBackground": "#1e1e1e",
-
+		"tab.inactiveBackground": "#022a39",//2a2a2a
+		"tab.activeBackground": "#5c5527",//08454d
+		"tab.hoverBackground": "#5c5527", //4a5f7a
+		"tab.activeForeground": "#eee",
+		"tab.inactiveForeground": "#eee",
+		"tab.activeBorder": "#d1b159",
+		"tab.activeBorderTop": "#d1b159",
+		"editorGroupHeader.tabsBackground": "#1e1e1e",
+		"tab.border":"#0f4a5c", // tab 之间的左右分隔线
 		// ===== 列表 & 树 =====
 		"list.activeSelectionBackground": "#025c53",//3a5f7a
 		"list.activeSelectionForeground": "#eeffff",
-		"list.inactiveSelectionBackground": "#025c53",//007acc
+		"list.inactiveSelectionBackground": "#025c53",//007acc 025c53
 		"list.inactiveSelectionForeground": "#eeffff",
+
+		// "list.inactiveForeground": "#9a9a9a",           // 未选中项的默认文字色
+		// "list.hoverForeground": "#eeffff",      // 鼠标悬停在未选中项上
+		// "list.hoverBackground": "#097167",      // 悬停背景
+		"focusBorder": "#025c53", //007acc
 		"list.hoverBackground": "#097167",//3a3a3a
 		"list.hoverForeground": "#eeffff",
 		"list.focusBackground": "#007acc", //007acc

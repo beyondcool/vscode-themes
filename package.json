@@ -3,7 +3,7 @@
   "publisher": "zhouhe",
   "displayName": "zhouhe-dark",
   "description": "zhouhe vscode theme dark",
-  "version": "0.0.2",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/beyondcool/vscode-themes.git"
@@ -20,6 +20,55 @@
         "label": "zhouhe-dark",
         "uiTheme": "vs-dark",
         "path": "./themes/zhouhe-dark.-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "editor.minimap.enabled": false,
+      "editor.mouseWheelZoom": true,
+      "editor.cursorSmoothCaretAnimation": "on",
+      "editor.semanticHighlighting.enabled": true,
+      "workbench.experimental.modernUI": false
+    },
+    "walkthroughs": [
+      {
+        "id": "zhouhe-dark.getStarted",
+        "title": "开始使用 zhouhe-dark",
+        "description": "三步让配色按 zhouhe-dark 的设计意图生效。",
+        "steps": [
+          {
+            "id": "pickTheme",
+            "title": "选中 zhouhe-dark 主题",
+            "description": "在主题选择器里选中 **zhouhe-dark**。",
+            "media": {
+              "markdown": "./walkthroughs/01-pick-theme.md"
+            },
+            "completionEvents": [
+              "onSettingChanged:workbench.colorTheme"
+            ]
+          },
+          {
+            "id": "disableModernUI",
+            "title": "关闭 Modern UI（推荐）",
+            "description": "经典布局下 zhouhe-dark 的配色才是完整的；一键定位到该设置并设为 `false`。",
+            "media": {
+              "markdown": "./walkthroughs/02-modern-ui.md"
+            },
+            "completionEvents": [
+              "onSettingChanged:workbench.experimental.modernUI"
+            ]
+          },
+          {
+            "id": "semanticHighlighting",
+            "title": "确认语义高亮已开启",
+            "description": "语义高亮关闭时，主题里针对语义 token 的配色不会渲染。",
+            "media": {
+              "markdown": "./walkthroughs/03-semantic-highlighting.md"
+            },
+            "completionEvents": [
+              "onSettingChanged:editor.semanticHighlighting.enabled"
+            ]
+          }
+        ]
       }
     ]
   }
