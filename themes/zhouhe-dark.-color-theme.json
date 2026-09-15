@@ -87,6 +87,10 @@
 		"list.focusForeground": "#eeffff",
 		"list.highlightForeground": "#ffff1d",//007acc
 
+		// ===== 全局文本选中（搜索框 / 查找框 / 各类输入框里的选中文字）=====
+		// 不设则用系统默认高亮色；编辑器内的选区由 editor.selectionBackground 控制，与此键无关
+		"selection.background": "#01a011", // 0a7012 3a5f7a 025c53
+
 		// ===== 输入框 & 按钮 =====
 		"input.background": "#1e1e1e",
 		"input.foreground": "#eeffff",
