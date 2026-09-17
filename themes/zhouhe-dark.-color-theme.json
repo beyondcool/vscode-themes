@@ -35,7 +35,7 @@
 		"menu.foreground":"#e6e6e6",
 
 		// ===== 侧边栏 & 活动栏 =====
-		"sideBar.background": "#022a39", //1d3945 142830 02384b
+		"sideBar.background": "#022a39", //1d3945 142830 02384b 
 		"sideBar.foreground": "#ccc", //9a9a9a
 		"sideBar.border": "#080d0e", // 编辑器左右边框 115d67
 		// "sideBarTitle.foreground": "#bbbbbb",
@@ -118,9 +118,18 @@
 		"panelTitle.inactiveForeground": "#888888",
 
 		// ===== 滚动条 =====
-		"scrollbarSlider.background": "#ffffff30", //3a3a3a
-		"scrollbarSlider.hoverBackground": "#ffffff45",//4a4a4a
-		"scrollbarSlider.activeBackground": "#ffffff45",//5a5a5a
+		"scrollbar.background": "#00000000", //05050516  默认不设 = 透明，露出编辑器背景
+		"scrollbarSlider.background": "#a1891486", //1476a186
+		"scrollbarSlider.hoverBackground": "#ffffff5e",//ffffff9a
+		"scrollbarSlider.activeBackground": "#ffffff5e",//ffffff9a
+		"scrollbar.shadow": "#fafafa",
+
+		"editorOverviewRuler.border": "#00000000", //00000000
+		"editorOverviewRuler.errorForeground": "#f07178",
+		"editorOverviewRuler.warningForeground": "#ffcb6b",
+		"editorOverviewRuler.findMatchForeground": "#ffd33d9a",
+		"editorOverviewRuler.selectionHighlightForeground": "#eeffff80",
+		
 		// ===== Minimap 滑块（预览条） =====
 		"minimap.background": "#00000050",
 		"minimapSlider.background": "#ffffff30",       // 默认状态
