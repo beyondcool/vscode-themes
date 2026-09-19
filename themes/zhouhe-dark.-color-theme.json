@@ -39,10 +39,10 @@
 		// ===== 侧边栏 & 活动栏 =====
 		"sideBar.background": "#01425a", //022a39 
 		"sideBar.foreground": "#ccc", //9a9a9a
-		"sideBar.border": "#1f7b8e", // 编辑器左右边框 080d0e 99d5e1
+		"sideBar.border": "#080d0e", // 编辑器左右边框 080d0e 99d5e1 1f7b8e
 
 		// "sideBarTitle.foreground": "#bbbbbb",
-		"sideBarSectionHeader.background": "#031f28", //标题栏背景色 [设置 -> 取消 Modern UI 才有效] 777070
+		"sideBarSectionHeader.background": "#031f28", // 031f28 标题栏背景色 [设置 -> 取消 Modern UI 才有效] 777070
 		"sideBarSectionHeader.foreground": "#05ac7f", // 标题文字颜色 eeffff 029f9f
 		"sideBarSectionHeader.border":   "#237390",  // 标题栏上方的分隔线颜色 034f6b
 		
@@ -75,6 +75,7 @@
 		"editorGroupHeader.tabsBackground": "#1e1e1e",
 		"tab.border":"#0f4a5c", // tab 之间的左右分隔线
 		// ===== 列表 & 树 =====
+		// 树视图，当前行（选中时颜色）
 		"list.activeSelectionBackground": "#025c53",//3a5f7a
 		"list.activeSelectionForeground": "#eeffff",
 		"list.inactiveSelectionBackground": "#025c53",//007acc 025c53
