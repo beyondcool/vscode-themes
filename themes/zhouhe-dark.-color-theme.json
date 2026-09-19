@@ -39,7 +39,7 @@
 		// ===== 侧边栏 & 活动栏 =====
 		"sideBar.background": "#01425a", //022a39 
 		"sideBar.foreground": "#ccc", //9a9a9a
-		"sideBar.border": "#99d5e1", // 编辑器左右边框 080d0e
+		"sideBar.border": "#1f7b8e", // 编辑器左右边框 080d0e 99d5e1
 
 		// "sideBarTitle.foreground": "#bbbbbb",
 		"sideBarSectionHeader.background": "#031f28", //标题栏背景色 [设置 -> 取消 Modern UI 才有效] 777070
