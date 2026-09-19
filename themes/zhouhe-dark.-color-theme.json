@@ -7,19 +7,21 @@
 
 		// ===== 编辑器核心 =====
 		"editorLineNumber.foreground": "#636363", //636363
-		"editorLineNumber.activeForeground": "#42997c", //1fa7b9
+		"editorLineNumber.activeForeground": "#c7c7c7", //1fa7b9
 		"editorCursor.foreground": "#eeffff",
-		"editor.selectionBackground": "#0a7012", //3a5f7a 22aa2e
-		"editor.selectionHighlightBackground": "#ede73bfb",
-		// "editor.wordHighlightBackground": "#1e4a04fc",//3a5f7a40
-		// "editor.wordHighlightStrongBackground": "#fb9836fc",//3a5f7a80
+
+		"editor.selectionBackground": "#2b9100fc", //af8324fc
+		"editor.selectionHighlightBackground": "#2b9100fc",
+		// "editor.wordHighlightBackground": "#dc6921fc",// 光标所在单词高亮 3a5f7a40
 		
-		"editor.findMatchBackground": "#ffaa0030",
-		"editor.findMatchHighlightBackground": "#ffd33d22",
-		"editor.findRangeHighlightBackground": "#4a4a4a40",
-		"editor.hoverHighlightBackground": "#145711f7", //3a5f7a30 145711f7
+		"editor.wordHighlightStrongBackground": "#fb9836fc",//3a5f7a80
+		
+		"editor.findMatchBackground": "#ffaa0030", //ffaa0030
+		"editor.findMatchHighlightBackground": "#f80f68ea", // ffd33d22
+		"editor.findRangeHighlightBackground": "#23fa35f9", //4a4a4a40
+		"editor.hoverHighlightBackground": "#3b7138f7", //3a5f7a30 145711f7 7ee779f7
 		"editor.lineHighlightBackground": "#04202c", //052837
-		"editor.lineHighlightBorder": "#4a4a4a",
+		"editor.lineHighlightBorder": "#322d2d",//4a4a4a
 		"editor.rangeHighlightBackground": "#3a5f7a30",
 		"editor.symbolHighlightBackground": "#3a5f7a60",
 
@@ -136,6 +138,10 @@
 		"minimapSlider.hoverBackground": "#ffffff45",  // 鼠标悬停
 		"minimapSlider.activeBackground": "#ffffff45", // 拖拽/点击时
 
+		
+		"editorHoverWidget.background": "#0a6366",
+		"editorHoverWidget.border": "#ffffff",
+		
 		// ===== Git 装饰 =====
 		"gitDecoration.addedResourceForeground": "#7aff92",
 		"gitDecoration.modifiedResourceForeground": "#ffcb6b",
@@ -160,7 +166,6 @@
 		// "terminal.ansiBrightMagenta": "#c792ea",
 		// "terminal.ansiBrightCyan": "#89ddff",
 		// "terminal.ansiBrightWhite": "#ffffff"
-	
 	},
 	"tokenColors": [
 		{
