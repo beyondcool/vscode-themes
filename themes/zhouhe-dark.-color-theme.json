@@ -37,9 +37,10 @@
 		"menu.foreground":"#e6e6e6",
 
 		// ===== 侧边栏 & 活动栏 =====
-		"sideBar.background": "#022a39", //1d3945 142830 02384b 
+		"sideBar.background": "#01425a", //022a39 
 		"sideBar.foreground": "#ccc", //9a9a9a
-		"sideBar.border": "#080d0e", // 编辑器左右边框 115d67
+		"sideBar.border": "#99d5e1", // 编辑器左右边框 080d0e
+
 		// "sideBarTitle.foreground": "#bbbbbb",
 		"sideBarSectionHeader.background": "#031f28", //标题栏背景色 [设置 -> 取消 Modern UI 才有效] 777070
 		"sideBarSectionHeader.foreground": "#05ac7f", // 标题文字颜色 eeffff 029f9f
