@@ -11,8 +11,8 @@
 		"editorCursor.foreground": "#eeffff",
 
 		"editor.selectionBackground": "#a3311d", //a13cfa
-		"editor.selectionHighlightBackground": "#127612fd", //a13cfacb
-		// "editor.wordHighlightBackground": "#dc6921fc",// 光标所在单词高亮 3a5f7a40
+		"editor.selectionHighlightBackground": "#e62fe6fd", //a13cfacb
+		"editor.wordHighlightBackground": "#ac1bebd7",// 光标所在单词高亮 3a5f7a40 30988ffc
 		
 		"editor.wordHighlightStrongBackground": "#fb9836fc",//3a5f7a80
 		
